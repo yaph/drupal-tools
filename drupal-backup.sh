@@ -4,26 +4,26 @@
 #
 
 # Database connection information
-  dbname=dbname
-  dbhost=localhost
-  dbuser=dbuser
+dbname=dbname
+dbhost=localhost
+dbuser=dbuser
 
 # Website Files
-  webrootdir=/home/user/public_html
+webrootdir=/home/user/public_html
 
 #
 # Variables
 #
 
 # Default TAR Output File Base Name
-  tarnamebase=dbuser.org-backup-drupal6-
-  datestamp=`date +'%Y-%m-%d'`
+tarnamebase=dbuser.org-backup-drupal6-
+datestamp=`date +'%Y-%m-%d'`
 
 # Execution directory (script start point)
-  startdir=`pwd`
+startdir=`pwd`
 
 # Temporary Directory
-  tempdir=tmpbckdir$datestamp
+tempdir=tmpbckdir$datestamp
 
 
 #
